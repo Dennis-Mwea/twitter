@@ -170,6 +170,7 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         Folklore\GraphQL\ServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
 
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
